@@ -7,5 +7,5 @@ class Review(models.Model):
     review_text = models.TextField()
     rating = models.IntegerField()
 
-    def __str__(self):
-        return f"Username: {self.user_name}, Review_text: {self.review_text}, Rating: {self.rating}"
+    # def __str__(self):
+    #     return f"Username: {self.user_name}, Review_text: {self.review_text}, Rating: {self.rating}"
